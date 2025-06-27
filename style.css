@@ -73,25 +73,24 @@ body{
 .secundario{
     align-items: center;
     margin: 0 10em;
-}    --branco-principal: #ffffff;
-    --cinza-secundaria: #c0c0c0;
-    --botao-azul: #167bf7;
-    --cor-de-fundo: #00030c;
 }
-body{
-    background-color: var(--cor-de-fundo);
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
     color: var(--branco-principal);
+    margin-bottom: 0.1em;
 }
-*{
-    margin: 0;
-    padding: 0;
+
+.descricao__texto{
+    color: var(--cinza-secundario);
 }
-.principal{
-    background-image: url("img/Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
 }
-.container{
-    height: 100vh;
+
+.container__descricao{
+    padding: 2em;
 }
-    
